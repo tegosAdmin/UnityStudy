@@ -7,3 +7,10 @@ To like is better than to know. To enjoy is better than to like.
 ## wiki
 
 [wiki](https://github.com/tegosAdmin/UnityStudy/wiki)
+
+## ハマりポイント（stuck in a hole）
+
+* ゲーム画面が真っ暗になった場合は一度タブを閉じると直る
+* If the game screen goes black, close the tab once to fix it
+
+
