@@ -14,3 +14,14 @@ To like is better than to know. To enjoy is better than to like.
 * If the game screen goes black, close the tab once to fix it
 
 
+### 別のScriptを呼び出す方法（Lesson 3.2 - Make the World Whiz By ５）
+
+``` 
+private PlayerController playerControllerScript;
+    // Start is called before the first frame update
+    void Start()
+    {
+        playerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
+    }
+
+
