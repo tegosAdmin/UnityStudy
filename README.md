@@ -23,7 +23,7 @@ private PlayerController playerControllerScript;
     {
         playerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
     }
-
+```
 
 ### Animater 
 scroll on mac 「option」 + left click
