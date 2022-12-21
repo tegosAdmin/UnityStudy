@@ -25,3 +25,7 @@ private PlayerController playerControllerScript;
     }
 
 
+### Animater 
+scroll on mac 「option」 + left click
+
+![image](https://user-images.githubusercontent.com/92899345/208812774-a4bb8d6d-62cc-4248-94a7-2723f12da6d1.png)
