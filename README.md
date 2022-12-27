@@ -13,6 +13,11 @@ To like is better than to know. To enjoy is better than to like.
 * ゲーム画面が真っ暗になった場合は一度タブを閉じると直る
 * If the game screen goes black, close the tab once to fix it
 
+## 豆知識（Trivia）
+
+* ゲーム実行を高速化する方法（How to make your game run faster）
+「編集」->「プロジェクト設定」->「Enter Play Mode Options (Experimental)」
+
 
 ### 別のScriptを呼び出す方法（Script Communication Lesson 3.2 - Make the World Whiz By ５）
 
