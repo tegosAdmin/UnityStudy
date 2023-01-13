@@ -35,3 +35,17 @@ private PlayerController playerControllerScript;
 scroll on mac 「option」 + left click(heavy)
 
 ![image](https://user-images.githubusercontent.com/92899345/208812774-a4bb8d6d-62cc-4248-94a7-2723f12da6d1.png)
+
+### User input 
+1. Install the Input System package
+「menu」「window」->「package manager」->「Input System」
+<img width="798" alt="image" src="https://user-images.githubusercontent.com/92899345/212228903-64f202b9-5351-49f2-a09d-53c0d6128d45.png">
+
+2. Add a Player Input component
+※ add blank 「Input」Folder and 「Input Action」 謎・・・
+![image](https://user-images.githubusercontent.com/92899345/212229408-97a578d1-6676-45f1-abe8-98170a55b202.png)
+
+3. Create a new script
+![image](https://user-images.githubusercontent.com/92899345/212229111-f64d0f28-5f3d-450e-b446-be95285cd9f9.png)
+4. Write the OnMove function declaration
+
