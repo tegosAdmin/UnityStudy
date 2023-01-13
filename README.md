@@ -43,9 +43,46 @@ scroll on mac 「option」 + left click(heavy)
 
 2. Add a Player Input component
 ※ add blank 「Input」Folder and 「Input Action」 謎・・・
+
 ![image](https://user-images.githubusercontent.com/92899345/212229408-97a578d1-6676-45f1-abe8-98170a55b202.png)
 
 3. Create a new script
 ![image](https://user-images.githubusercontent.com/92899345/212229111-f64d0f28-5f3d-450e-b446-be95285cd9f9.png)
+
 4. Write the OnMove function declaration
 
+
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+
+public class PlayerController : MonoBehaviour
+{
+    private Rigidbody rb;
+    private float movementX;
+    private float movementY;
+    // Start is called before the first frame update
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    // Update is called once per frame
+    void OnMove(InputValue movementValue)
+    {
+        Vector2 movementVector = movementValue.Get<Vector2>();
+
+        movementX = movementVector.x;
+        movementY = movementVector.y;
+    }
+
+    void FixedUpdate()
+    {
+        Vector3 movement = new Vector3(movementX, 0.0f, movementY);
+        rb.AddForce(movement);
+    }
+}
+```
