@@ -37,6 +37,8 @@ scroll on mac 「option」 + left click(heavy)
 ![image](https://user-images.githubusercontent.com/92899345/208812774-a4bb8d6d-62cc-4248-94a7-2723f12da6d1.png)
 
 ### User input 
+https://learn.unity.com/tutorial/moving-the-player?uv=2019.4&projectId=5f158f1bedbc2a0020e51f0d#5f107d0aedbc2a001fa83d42
+
 1. Install the Input System package
 「menu」「window」->「package manager」->「Input System」
 <img width="798" alt="image" src="https://user-images.githubusercontent.com/92899345/212228903-64f202b9-5351-49f2-a09d-53c0d6128d45.png">
