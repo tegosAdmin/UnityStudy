@@ -88,3 +88,7 @@ public class PlayerController : MonoBehaviour
     }
 }
 ```
+### unity animation おすすめ
+https://learn.unity.com/course/real-time-animated-storytelling-jp?language=ja
+
+https://www.youtube.com/watch?v=n4CaqPJp77c
