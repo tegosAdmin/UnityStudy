@@ -83,8 +83,8 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector3 movement = new Vector3(movementX, 0.0f, movementY);
-        rb.AddForce(movement);
+        Vector3 movement = new Vector3(movementX, 0.0f, movementY); //入力を詰め直している
+        rb.AddForce(movement); //ここで球に動きを与えている
     }
 }
 ```
