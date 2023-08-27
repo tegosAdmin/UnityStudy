@@ -124,3 +124,5 @@ https://learn.unity.com/course/real-time-animated-storytelling-jp?language=ja
 https://www.youtube.com/watch?v=n4CaqPJp77c
 
 ### （2023/01/15）興味はあるが上記は難しすぎるためいったん置き
+
+https://api.unity.com/v1/oauth2/authorize?client_id=unity_learn&locale=en_US&redirect_uri=https%3A%2F%2Flearn.unity.com%2Fauth%2Fcallback%3Fredirect_to%3D%252Fcourse%252Freal-time-animated-storytelling-jp%253Flanguage%253Dja&response_type=code&scope=identity+offline&state=ee8786a7-e0fd-448e-84df-a089ac9a1f34
